@@ -26,7 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>with(self){
-if (distance_to_object(Player) &lt;=Player.place_free_check){
+if (((bbox_left-Player.bbox_right &lt;=Player.place_free_check) &amp;&amp; (Player.bbox_left-bbox_right &lt;=Player.place_free_check))  &amp;&amp; ((bbox_top-Player.bbox_bottom &lt;=Player.place_free_check/global.depthview) &amp;&amp; (Player.bbox_top-bbox_bottom &lt;=Player.place_free_check/global.depthview)))
+{global.can_talk=true}
+else
+{global.can_talk=false}
+
+
+
+if (global.can_talk==true){
   if (!instance_exists(NPC_alert) &amp;&amp; !instance_exists(Dialog_Box1)){
    instance_create(Player_follow.x-468,752,NPC_alert);
  }
@@ -42,7 +49,7 @@ if (distance_to_object(Player) &lt;=Player.place_free_check){
 
 }
 }
- if (distance_to_object(Player) &lt;=Player.place_free_check &amp;&amp; keyboard_check_pressed(ord('X'))){ 
+ if (global.can_talk==true &amp;&amp; keyboard_check_pressed(ord('X'))){ 
   if (!instance_exists(dialog)){
    dialog=instance_create(Player_follow.x-425,608,Dialog_Box1);
    dialog.text_spd=0.5;
@@ -66,6 +73,32 @@ if (distance_to_object(Player) &lt;=Player.place_free_check){
  }
 
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.can_talk</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>false</string>
           </argument>
         </arguments>
       </action>

@@ -600,8 +600,8 @@ if (xDirection == 0 &amp;&amp; yDirection == 0){
  sprite_index=sprite[11,10];
  }
  }
-//To destroy NPC_alert when distance from any NPC object&gt;48
- if (distance_to_object(instance_nearest(x,y,NPC))&gt;48){
+//To destroy NPC_alert when far from any NPC object
+ if (global.can_talk==false){
   with (NPC_alert){instance_destroy()}
  }
 //Move Payer backward if collided (this code works but causes back and forth movement

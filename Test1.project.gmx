@@ -38,6 +38,7 @@
       </sprites>
       <sprites name="Crab">
         <sprite>sprites\spr_Crab</sprite>
+        <sprite>sprites\spr_Crab2</sprite>
       </sprites>
     </sprites>
     <sprites name="Environment">
@@ -63,6 +64,9 @@
         <sprite>sprites\spr_CrystalCaveOutside</sprite>
         <sprite>sprites\spr_CrystalCaveOutsideFront</sprite>
       </sprites>
+      <sprites name="PalmyBeach">
+        <sprite>sprites\spr_Ocean_Waves</sprite>
+      </sprites>
     </sprites>
     <sprites name="Micellaneous">
       <sprites name="Portals">
@@ -76,6 +80,9 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
+    <background>background\PalmyBeach_Background</background>
+    <background>background\Palmy_Beach_Background1</background>
+    <background>background\background3</background>
     <background>background\Cave_Background1</background>
   </backgrounds>
   <paths name="paths"/>
@@ -87,7 +94,6 @@
     <objects name="Environment">
       <object>objects\Invisible_Wall</object>
       <object>objects\Wind1</object>
-      <object>objects\PalmTree</object>
       <objects name="CrystalCave">
         <object>objects\CrystalCave_Outside</object>
         <object>objects\CrystalCaveOutsideFront</object>
@@ -106,6 +112,10 @@
         <object>objects\CaveBridgeLeft</object>
         <object>objects\CaveBridgeRight</object>
         <object>objects\SmallStream1</object>
+      </objects>
+      <objects name="Palmy_Beach">
+        <object>objects\PalmTree</object>
+        <object>objects\OceanWaves</object>
       </objects>
     </objects>
     <objects name="NPC">
