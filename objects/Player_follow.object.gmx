@@ -78,6 +78,9 @@
             <string>if (global.vibratescreen==1){
 move_towards_point(Player.x,Player.y,global.vibratescreenfrequency);
 }
+else if (global.in_battle==true &amp;&amp; instance_exists(BattleField)){
+x=BattleField.x;
+y=BattleField.y;}
 else if (instance_exists(Dialog_Box1)){
 move_towards_point(x,y,0)
 }

@@ -65,6 +65,11 @@ if (global.can_talk==true){
    dialog.text_count=0;}
 
    if (dialog.text_page&gt;array_length_1d(dialog.text)-1 || dialog.text[dialog.text_page]==""){
+    if (global.in_battle==true &amp;&amp; !instance_exists(BattleField)){
+    instance_create(x,y,BattleField);}
+    /*else if (global.in_battle==false &amp;&amp; instance_exists(BattleField)){
+    with (BattleField){
+    instance_destroy();}}*/
     with(dialog) {
      instance_destroy();
     }

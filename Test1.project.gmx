@@ -29,6 +29,10 @@
       <sprite>sprites\spr_LeftMov</sprite>
       <sprite>sprites\spr_DownMov</sprite>
     </sprites>
+    <sprites name="OriBattle">
+      <sprite>sprites\spr_BattleField</sprite>
+      <sprite>sprites\spr_PlayerSoul</sprite>
+    </sprites>
     <sprites name="NPC">
       <sprites name="Dragon">
         <sprite>sprites\spr_bluedragonleft</sprite>
@@ -65,6 +69,8 @@
         <sprite>sprites\spr_CrystalCaveOutsideFront</sprite>
       </sprites>
       <sprites name="PalmyBeach">
+        <sprite>sprites\spr_Beach_Umbrella</sprite>
+        <sprite>sprites\spr_Beach_Chair</sprite>
         <sprite>sprites\spr_Ocean_Waves</sprite>
       </sprites>
     </sprites>
@@ -115,6 +121,7 @@
       </objects>
       <objects name="Palmy_Beach">
         <object>objects\PalmTree</object>
+        <object>objects\Beach_Chair</object>
         <object>objects\OceanWaves</object>
       </objects>
     </objects>
@@ -141,12 +148,16 @@
     <objects name="Dialogue">
       <object>objects\Dialog_Box1</object>
     </objects>
+    <objects name="Battle">
+      <object>objects\BattleField</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Palmy_Beach</room>
+    <room>rooms\BatteRoomTest</room>
     <room>rooms\Crystal_Cave</room>
     <room>rooms\Crystal_Cave2</room>
   </rooms>

@@ -118,12 +118,20 @@ text[1]=""}
 else if (global.main_quest_progress==1.0 &amp;&amp; global.windspeed=0){
 text[0]="The Wind God is located on the far left of the beach";
 text[1]=""}
+else if (global.main_quest_progress==0 &amp;&amp; global.in_battle==true){
+text[0]="Should we end this?";
+text[1]="Talk to me if you want to try the Fighting Stimulator again.";
+text[2]="";
+global.in_battle=false;
+}
 else if (global.main_quest_progress==0){
-text[0]="It's a bit hot here, don't you think so?";
-text[1]="Why not ask the Wind God to create some wind?";
-text[2]="You can find him on the far left of the beach";
-text[3]="";
-global.talked_to_SmallblueDragon=true;}
+text[0]="Want to Fight?";
+text[1]="Let's Fight";
+text[2]="";
+//instance_create(x,y,BattleField)
+global.in_battle=true;
+//global.talked_to_SmallblueDragon=true;
+}
 }
 
 
