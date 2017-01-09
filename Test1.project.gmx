@@ -95,6 +95,7 @@
   <objects name="objects">
     <objects name="Player">
       <object>objects\Player</object>
+      <object>objects\Player_Soul</object>
       <object>objects\Player_follow</object>
     </objects>
     <objects name="Environment">

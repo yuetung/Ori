@@ -641,6 +641,15 @@ if (place_meeting(x-move_spd, y, Wall) &amp;&amp; place_free(x+place_free_check,
 //x += xDirection * Player2.move_spd/1000;
 //y -= yDirection * Player2.move_spd/1000;
 }
+
+//Create Player_Soul when global.in_battle==true
+if (global.in_battle==true &amp;&amp; !instance_exists(Player_Soul)){
+instance_create(x,y,Player_Soul);
+}
+else if (global.in_battle==false &amp;&amp; instance_exists(Player_Soul)){
+with(Player_Soul){
+instance_destroy();}
+}
 </string>
           </argument>
         </arguments>

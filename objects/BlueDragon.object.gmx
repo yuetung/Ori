@@ -77,7 +77,7 @@ text[1]="Why not talk to my son, he's a bit bored there";
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!instance_exists(Dialog_Box1) &amp;&amp; distance_to_object(Player)&lt;=Player.place_free_check){
+            <string>if (!instance_exists(Dialog_Box1) &amp;&amp; ((bbox_left-Player.bbox_right &lt;=Player.place_free_check) &amp;&amp; (Player.bbox_left-bbox_right &lt;=Player.place_free_check))  &amp;&amp; ((bbox_top-Player.bbox_bottom &lt;=Player.place_free_check/global.depthview) &amp;&amp; (Player.bbox_top-bbox_bottom &lt;=Player.place_free_check/global.depthview))){
 
 if (global.main_quest_progress&gt;=1.1 &amp;&amp; global.main_quest_progress&lt;=1.2){
 if (!audio_is_playing(bgm_Sadness)){
