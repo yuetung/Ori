@@ -169,8 +169,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//slowly become opaque
-if(image_alpha&lt;1 &amp;&amp; global.in_battle=true){
+            <string>if(global.in_battle==true){
+//slowly become opaque
+if(image_alpha&lt;1){
 image_alpha+=attack_speed/250}
 //fly up first
 if(image_index==0 &amp;&amp; image_alpha&gt;=1){
@@ -188,6 +189,7 @@ image_index=10
 image_speed=0;
 depth=-(y+72);
 motion_set(flydirection,attack_speed)}
+}
 //destroy condition
 if (global.in_battle==false) {image_alpha-=0.2}
 if(image_alpha&lt;=0.1 || x&lt;=view_xview || x&gt;=view_xview+view_wview || y&lt;=view_yview || y&gt;=view_yview+view_hview){instance_destroy()}
