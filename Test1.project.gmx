@@ -29,8 +29,10 @@
       <sprite>sprites\spr_LeftMov</sprite>
       <sprite>sprites\spr_DownMov</sprite>
     </sprites>
-    <sprites name="OriBattle">
+    <sprites name="Battle">
       <sprite>sprites\spr_BattleField</sprite>
+      <sprite>sprites\spr_PaperPlaneBig</sprite>
+      <sprite>sprites\spr_PaperPlaneSmall</sprite>
       <sprite>sprites\spr_PlayerSoul</sprite>
     </sprites>
     <sprites name="NPC">
@@ -150,6 +152,7 @@
       <object>objects\Dialog_Box1</object>
     </objects>
     <objects name="Battle">
+      <object>objects\Paper_Plane</object>
       <object>objects\BattleField</object>
     </objects>
   </objects>

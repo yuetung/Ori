@@ -29,7 +29,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>false</string>
           </argument>
         </arguments>
       </action>
@@ -75,9 +75,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.vibratescreen==1){
+            <string>if (global.vibratescreen==true){
 move_towards_point(Player.x,Player.y,global.vibratescreenfrequency);
 }
+else if (x&lt;=view_wview/2 &amp;&amp; Player.x&lt;view_wview/2){
+x=view_wview/2}
+else if (x&gt;=room_width-view_wview/2 &amp;&amp; Player.x&gt;room_width-view_wview/2){
+x=room_width-view_wview/2}
 else if (global.in_battle==true &amp;&amp; instance_exists(BattleField)){
 x=BattleField.x;
 y=BattleField.y;}

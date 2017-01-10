@@ -43,7 +43,7 @@ if (global.can_talk==true){
  }  
  }
  else
-   {NPC_alert.x = view_xview + 15;
+   {NPC_alert.x = Player_follow.x-view_wview/2+15;
    NPC_alert.y = 752;}
    
 
