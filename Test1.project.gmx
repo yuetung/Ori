@@ -30,10 +30,16 @@
       <sprite>sprites\spr_DownMov</sprite>
     </sprites>
     <sprites name="Battle">
+      <sprite>sprites\spr_PlayerSoulField</sprite>
+      <sprite>sprites\spr_EnemySoulField</sprite>
       <sprite>sprites\spr_BattleField</sprite>
       <sprite>sprites\spr_PaperPlaneBig</sprite>
       <sprite>sprites\spr_PaperPlaneSmall</sprite>
       <sprite>sprites\spr_PlayerSoul</sprite>
+      <sprite>sprites\spr_SoulField</sprite>
+      <sprite>sprites\spr_SoulFieldBoundary</sprite>
+      <sprite>sprites\spr_SoulFieldCollisionMask</sprite>
+      <sprite>sprites\spr_SoulFieldCopy</sprite>
     </sprites>
     <sprites name="NPC">
       <sprites name="Dragon">
@@ -73,6 +79,7 @@
       <sprites name="PalmyBeach">
         <sprite>sprites\spr_Beach_Umbrella</sprite>
         <sprite>sprites\spr_Beach_Chair</sprite>
+        <sprite>sprites\spr_ship</sprite>
         <sprite>sprites\spr_Ocean_Waves</sprite>
       </sprites>
     </sprites>
@@ -85,6 +92,9 @@
       <sprite>sprites\test</sprite>
       <sprite>sprites\spr_NPC_alert</sprite>
       <sprite>sprites\spr_Dialogue_Box1</sprite>
+    </sprites>
+    <sprites name="Enemy">
+      <sprite>sprites\Crab2</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -153,7 +163,16 @@
     </objects>
     <objects name="Battle">
       <object>objects\Paper_Plane</object>
+      <object>objects\SoulField</object>
+      <object>objects\SoulFieldBoundary</object>
+      <object>objects\SoulFieldMask</object>
       <object>objects\BattleField</object>
+    </objects>
+    <objects name="Transportation">
+      <object>objects\Ship</object>
+    </objects>
+    <objects name="Enemies">
+      <object>objects\object43</object>
     </objects>
   </objects>
   <timelines name="timelines">

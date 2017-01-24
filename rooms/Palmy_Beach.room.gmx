@@ -58,7 +58,7 @@
     <instance objName="PalmTree" x="1152" y="768" name="inst_313A7A5B" locked="0" code="" scaleX="0.468834698200226" scaleY="0.526315808296204" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="1760" y="768" name="inst_6271FAC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="896" y="416" name="inst_1763A98E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BlueDragon" x="3040" y="608" name="inst_CE791E3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BlueDragon" x="2912" y="736" name="inst_CE791E3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SmallBlueDragon" x="2304" y="576" name="inst_AA32420B" locked="0" code="" scaleX="0.446666657924652" scaleY="0.346153855323791" colour="4294967295" rotation="0"/>
     <instance objName="Wind_Creator_2000m" x="0" y="32" name="inst_40589B4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wind_Creator_2000m" x="2016" y="32" name="inst_F849AE90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -87,6 +87,8 @@
     <instance objName="PalmTree" x="3232" y="768" name="inst_6479834A" locked="0" code="" scaleX="-0.653116524219513" scaleY="0.930000007152557" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="3104" y="768" name="inst_73D3830D" locked="0" code="" scaleX="0.35230353474617" scaleY="0.538461565971375" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="3264" y="768" name="inst_F90C8630" locked="0" code="" scaleX="-0.241192415356636" scaleY="0.336032390594482" colour="4294967295" rotation="0"/>
+    <instance objName="Ship" x="6016" y="480" name="inst_5AFCF5EE" locked="0" code="" scaleX="0.458115190267563" scaleY="0.362869203090668" colour="4294967295" rotation="0"/>
+    <instance objName="object43" x="1536" y="288" name="inst_5A419D5A" locked="0" code="image_index=3&#xA;image_speed=0&#xA;" scaleX="0.215258851647377" scaleY="0.197547689080238" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -51,9 +51,21 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Player" x="192" y="544" name="inst_5C99A91E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Main_Quest_Progress" x="0" y="0" name="inst_F45B8393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Player" x="128" y="608" name="inst_5C99A91E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SoulField" x="512" y="640" name="inst_F0AA4F27" locked="0" code="" scaleX="0.910434782505035" scaleY="0.862464189529419" colour="4294967295" rotation="0"/>
     <instance objName="NPC" x="32" y="0" name="inst_B39A5FFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="64" y="608" name="inst_FEC84DCE" locked="0" code="" scaleX="0.555555582046509" scaleY="1.04453444480896" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="128" y="576" name="inst_BD33C628" locked="0" code="" scaleX="0.425474256277084" scaleY="0.740890681743622" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="192" y="544" name="inst_EC024503" locked="0" code="" scaleX="0.647696495056152" scaleY="0.781376540660858" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="736" y="544" name="inst_B7B58831" locked="0" code="" scaleX="0.647696495056152" scaleY="0.781376540660858" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="832" y="544" name="inst_89A5BCC5" locked="0" code="" scaleX="0.452574521303177" scaleY="0.611336052417755" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="928" y="576" name="inst_DD9A5EED" locked="0" code="" scaleX="0.72899729013443" scaleY="1.04453444480896" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="128" y="768" name="inst_0ECA3832" locked="0" code="" scaleX="0.62601625919342" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="32" y="736" name="inst_71EFC21D" locked="0" code="" scaleX="0.447154462337494" scaleY="0.785425126552582" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="928" y="736" name="inst_D8832D72" locked="0" code="" scaleX="0.655826568603516" scaleY="0.781376540660858" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="864" y="768" name="inst_EE7E845C" locked="0" code="" scaleX="0.45528456568718" scaleY="0.611336052417755" colour="4294967295" rotation="0"/>
+    <instance objName="BlueDragon" x="768" y="672" name="inst_64E06B8A" locked="0" code="" scaleX="0.808970093727112" scaleY="0.791489362716675" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
