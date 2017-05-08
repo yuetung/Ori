@@ -102,6 +102,9 @@
     <background>background\Palmy_Beach_Background1</background>
     <background>background\background3</background>
     <background>background\Cave_Background1</background>
+    <backgrounds name="gfx">
+      <background>background\dust_clouds</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">

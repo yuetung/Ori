@@ -6,11 +6,11 @@
   <colkind>1</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
-  <bboxmode>2</bboxmode>
-  <bbox_left>94</bbox_left>
-  <bbox_right>915</bbox_right>
-  <bbox_top>55</bbox_top>
-  <bbox_bottom>131</bbox_bottom>
+  <bboxmode>0</bboxmode>
+  <bbox_left>41</bbox_left>
+  <bbox_right>977</bbox_right>
+  <bbox_top>21</bbox_top>
+  <bbox_bottom>171</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -21,7 +21,5 @@
   <height>192</height>
   <frames>
     <frame index="0">images\spr_Dialogue_Box1_0.png</frame>
-    <frame index="1">images\spr_Dialogue_Box1_1.png</frame>
-    <frame index="2">images\spr_Dialogue_Box1_2.png</frame>
   </frames>
 </sprite>
