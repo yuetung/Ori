@@ -129,7 +129,13 @@
             <string>if image_index&lt;18{image_speed=1}
 else {image_speed=0.2}
 if (global.in_battle==true &amp;&amp; image_index&gt;=21){image_index=18}
-if (image_index &gt; image_number - 1){instance_destroy();}
+if (image_index &gt; image_number - 1){
+instance_destroy();
+Music_Box_Palmy_Beach.bgm=bgm_Palmy_Beach;
+if audio_is_playing(bgm_Battle_Theme){
+audio_stop_sound(bgm_Battle_Theme)
+}
+Music_Box_Palmy_Beach.alarm[0]=10}
 </string>
           </argument>
         </arguments>

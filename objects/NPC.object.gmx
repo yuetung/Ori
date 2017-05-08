@@ -51,7 +51,8 @@ if (global.can_talk==true){
 }
  if (global.can_talk==true &amp;&amp; keyboard_check_pressed(ord('X'))){ 
   if (!instance_exists(dialog)){
-   dialog=instance_create(Player_follow.x-425,608,Dialog_Box1);
+   //dialog=instance_create(Player_follow.x-417,608,Dialog_Box1);
+   dialog=instance_create(view_xview[0]+65,608,Dialog_Box1);
    dialog.text_spd=0.5;
    dialog.text=text;
    }
@@ -63,13 +64,22 @@ if (global.can_talk==true){
    dialog.text_page++;
    dialog.text_spd=0.5;
    dialog.text_count=0;}
-
+//To initiate battle at end of dialogue (when in_battle=true)
    if (dialog.text_page&gt;array_length_1d(dialog.text)-1 || dialog.text[dialog.text_page]==""){
     if (global.in_battle==true &amp;&amp; !instance_exists(BattleField)){
-    instance_create(x,y,BattleField);}
+    instance_create(x,y,BattleField);
+    Music_Box_Palmy_Beach.bgm=bgm_Battle_Theme
+    if audio_is_playing(bgm_Palmy_Beach){
+    audio_stop_sound(bgm_Palmy_Beach)
+    }
+    if audio_is_playing(bgm_Sadness){
+    audio_stop_sound(bgm_Sadness)
+    }
+    Music_Box_Palmy_Beach.alarm[0]=10}
     /*else if (global.in_battle==false &amp;&amp; instance_exists(BattleField)){
     with (BattleField){
     instance_destroy();}}*/
+    //To remove the dialogue box at start of battle
     with(dialog) {
      instance_destroy();
     }

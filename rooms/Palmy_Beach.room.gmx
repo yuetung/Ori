@@ -3,8 +3,8 @@
   <caption></caption>
   <width>7200</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -53,13 +53,12 @@
   <instances>
     <instance objName="Main_Quest_Progress" x="0" y="0" name="inst_B1011C7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Music_Box_Palmy_Beach" x="32" y="0" name="inst_7B0CD5E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Player" x="1696" y="448" name="inst_9CA6E55B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="PalmTree" x="128" y="640" name="inst_D6919D63" locked="0" code="" scaleX="0.894308924674988" scaleY="1.25506067276001" colour="4294967295" rotation="0"/>
+    <instance objName="Player" x="384" y="544" name="inst_9CA6E55B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="1152" y="704" name="inst_313A7A5B" locked="0" code="" scaleX="0.830188691616058" scaleY="1.38461542129517" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="1642" y="832" name="inst_6271FAC3" locked="0" code="" scaleX="0.991869926452637" scaleY="0.870445370674133" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="896" y="416" name="inst_1763A98E" locked="0" code="" scaleX="0.560000002384186" scaleY="0.914979755878449" colour="4294967295" rotation="0"/>
-    <instance objName="BlueDragon" x="2944" y="704" name="inst_CE791E3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SmallBlueDragon" x="2304" y="576" name="inst_AA32420B" locked="0" code="" scaleX="0.446666657924652" scaleY="0.346153855323791" colour="4294967295" rotation="0"/>
+    <instance objName="BlueDragon" x="2912" y="736" name="inst_CE791E3C" locked="0" code="" scaleX="1" scaleY="1" colour="4286611648" rotation="0"/>
+    <instance objName="SmallBlueDragon" x="2208" y="576" name="inst_AA32420B" locked="0" code="" scaleX="0.446666657924652" scaleY="0.346153855323791" colour="4294967295" rotation="0"/>
     <instance objName="Wind_Creator_2000m" x="0" y="32" name="inst_40589B4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wind_Creator_2000m" x="2016" y="32" name="inst_F849AE90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wind_Creator_2000m" x="4000" y="32" name="inst_52E3695C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -67,14 +66,13 @@
     <instance objName="CrystalCave_Outside" x="6016" y="576" name="inst_2F019D9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CrystalCaveOutsideFront" x="6016" y="685" name="inst_1B2D3853" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Portal_Cave" x="6688" y="672" name="inst_1EBDD34D" locked="0" code="new_room=Crystal_Cave&#xA;teleX=225;&#xA;teleY=700;&#xA;" scaleX="-0.597733736038208" scaleY="1.24576270580292" colour="4294967295" rotation="0"/>
-    <instance objName="Mr_Crab2" x="1248" y="608" name="inst_5A1AD6AC" locked="0" code="text[0]=&quot;I am supposed to be an enemy&quot;;&#xA;text[1]=&quot;But unfortunately, the combat system isn't developed yet&quot;;&#xA;text[2]=&quot;So I guess I will just be a peaceful NPC for now&quot;;&#xA;text[3]=&quot;Better enjoy the peace while you still can, I sense dark times ahead&quot;;&#xA;text[4]=&quot;&quot;;&#xA;image_speed=0&#xA;image_index=4&#xA;" scaleX="0.2612244784832" scaleY="0.213114753365517" colour="4294967295" rotation="0"/>
-    <instance objName="Mr_Crab2" x="864" y="544" name="inst_032FFBD2" locked="0" code="text[0]=&quot;I am supposed to be an enemy&quot;;&#xA;text[1]=&quot;But unfortunately, the combat system isn't developed yet&quot;;&#xA;text[2]=&quot;So I guess I will just be a peaceful NPC for now&quot;;&#xA;text[3]=&quot;Better enjoy the peace while you still can, I sense dark times ahead&quot;;&#xA;text[4]=&quot;&quot;;&#xA;image_speed=0&#xA;image_index=2" scaleX="0.391836732625961" scaleY="0.387978136539459" colour="4294967295" rotation="0"/>
+    <instance objName="Mr_Crab2" x="1248" y="608" name="inst_5A1AD6AC" locked="0" code="text[0]=&quot;Do you like the music?&quot;;&#xA;text[1]=&quot;.....&quot;;&#xA;text[2]=&quot;...........&quot;;&#xA;text[3]=&quot;thanks...&quot;;&#xA;text[4]=&quot;&quot;;&#xA;image_speed=0&#xA;image_index=4" scaleX="0.2612244784832" scaleY="0.213114753365517" colour="4294967295" rotation="0"/>
     <instance objName="Beach_Chair" x="1312" y="352" name="inst_9B9BD003" locked="0" code="image_speed=0&#xA;" scaleX="-0.245210722088814" scaleY="0.270916342735291" colour="4294967295" rotation="0"/>
     <instance objName="Beach_Chair" x="1344" y="352" name="inst_7A5F837D" locked="0" code="image_speed=0;&#xA;" scaleX="0.245210722088814" scaleY="0.248031497001648" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="512" y="448" name="inst_9805C162" locked="0" code="" scaleX="0.552845537662506" scaleY="0.663967609405518" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="1710" y="352" name="inst_3215C5F3" locked="0" code="" scaleX="0.397297292947769" scaleY="0.926829278469086" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="480" y="832" name="inst_8F9BC372" locked="0" code="" scaleX="0.964769661426544" scaleY="1.17408907413483" colour="4294967295" rotation="0"/>
-    <instance objName="PalmTree" x="832" y="896" name="inst_0B2DC38A" locked="0" code="" scaleX="-0.83423912525177" scaleY="1.90688264369965" colour="4294967295" rotation="0"/>
+    <instance objName="PalmTree" x="928" y="832" name="inst_0B2DC38A" locked="0" code="" scaleX="-0.83423912525177" scaleY="1.90688264369965" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="608" y="832" name="inst_61D74736" locked="0" code="" scaleX="1.05420053005219" scaleY="2.08906888961792" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="1659" y="320" name="inst_0C1427F6" locked="0" code="" scaleX="0.345945954322815" scaleY="0.615384638309479" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="1472" y="448" name="inst_BBA1C6FA" locked="0" code="" scaleX="0.536388158798218" scaleY="1.00406503677368" colour="4294967295" rotation="0"/>
@@ -86,9 +84,17 @@
     <instance objName="PalmTree" x="3232" y="768" name="inst_6479834A" locked="0" code="" scaleX="-0.653116524219513" scaleY="0.930000007152557" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="3104" y="768" name="inst_73D3830D" locked="0" code="" scaleX="0.35230353474617" scaleY="0.538461565971375" colour="4294967295" rotation="0"/>
     <instance objName="PalmTree" x="3264" y="768" name="inst_F90C8630" locked="0" code="" scaleX="-0.243902444839478" scaleY="0.412000000476837" colour="4294967295" rotation="0"/>
-    <instance objName="Ship" x="5984" y="480" name="inst_5AFCF5EE" locked="0" code="" scaleX="0.458115190267563" scaleY="0.362869203090668" colour="4294967295" rotation="0"/>
-    <instance objName="object43" x="1536" y="288" name="inst_5A419D5A" locked="0" code="image_index=3&#xA;image_speed=0&#xA;" scaleX="0.215258851647377" scaleY="0.197547689080238" colour="4294967295" rotation="0"/>
+    <instance objName="Ship" x="3712" y="576" name="inst_5AFCF5EE" locked="0" code="" scaleX="0.458115190267563" scaleY="0.362869203090668" colour="4294967295" rotation="0"/>
+    <instance objName="object43" x="1536" y="288" name="inst_5A419D5A" locked="0" code="image_index=3&#xA;image_speed=0" scaleX="0.215258851647377" scaleY="0.197547689080238" colour="4294967295" rotation="0"/>
     <instance objName="Invisible_Wall" x="7168" y="224" name="inst_8888F759" locked="0" code="" scaleX="-225" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Portal_Cave" x="128" y="672" name="inst_6F00844F" locked="0" code="new_room=Great_Bonzai_Tree&#xA;teleX=923;&#xA;teleY=665;&#xA;" scaleX="-0.597733736038208" scaleY="1.24576270580292" colour="4286644096" rotation="0"/>
+    <instance objName="Mr_Crab2_2" x="1056" y="384" name="inst_CC7CA55A" locked="0" code="text[0]=&quot;Eeeeeeek!!!!! A Freshie!!!!!!!&quot;;&#xA;text[1]=&quot;&quot;;&#xA;image_speed=0&#xA;image_index=2" scaleX="0.2612244784832" scaleY="0.224932253360748" colour="4294967295" rotation="0"/>
+    <instance objName="Mr_Crab2" x="3488" y="640" name="inst_E2789372" locked="0" code="text[0]=&quot;The boat.....&quot;;&#xA;text[1]=&quot;it's not ready yet......&quot;;&#xA;text[2]=&quot;(so sorry, haven't done the coding...... will get it done before next Thursday)&quot;;&#xA;text[3]=&quot;there's a cave on the other side.....&quot;;&#xA;text[4]=&quot;just walk across the 'water' for now.....&quot;;&#xA;text[5]=&quot;&quot;;&#xA;image_speed=0&#xA;image_index=2&#xA;" scaleX="0.2612244784832" scaleY="0.218579232692718" colour="4294967295" rotation="0"/>
+    <instance objName="Palmy_Beach_Boundary_Wall" x="0" y="224" name="inst_20FD5E54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Palmy_Beach_Boundary_Wall" x="0" y="224" name="inst_26531BEE" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Invisible_Wall" x="7196" y="753" name="inst_649DCB6B" locked="-1" code="" scaleX="-225" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Invisible_Wall" x="7165" y="768" name="inst_A9E778AD" locked="-1" code="" scaleX="1.22580647468567" scaleY="-24.0900001525879" colour="4294967295" rotation="0"/>
+    <instance objName="Invisible_Wall" x="-11" y="783" name="inst_6894B088" locked="-1" code="" scaleX="1.22580647468567" scaleY="-24.0900001525879" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

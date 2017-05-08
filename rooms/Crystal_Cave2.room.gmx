@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="Portal_Cave" x="160" y="704" name="inst_14745DAB" locked="0" code="new_room=Crystal_Cave&#xA;teleX=4225;&#xA;teleY=543;&#xA;" scaleX="-0.699716687202454" scaleY="1.3728814125061" colour="4294967295" rotation="0"/>
+    <instance objName="Mr_Crab2" x="384" y="672" name="inst_1DF0A6C4" locked="0" code="text[0]=&quot;It's an empty room&quot;;&#xA;text[1]=&quot;an accurate depiction of the creator's current motivation level&quot;;&#xA;text[2]=&quot;I wonder when will the creator finally have enough motivation&quot;;&#xA;text[3]=&quot;to finish up this room at least&quot;;&#xA;text[4]=&quot;If you are interested in this game and would like to help expanding this wonderful world,&quot;;&#xA;text[5]=&quot;Join our Club!!!&quot;;&#xA;text[6]=&quot;maybe..... the one who will fill up this room&quot;;&#xA;text[7]=&quot;IS YOU!&quot;;&#xA;text[8]=&quot;&quot;;&#xA;&#xA;&#xA;image_index=2&#xA;image_speed=0" scaleX="0.718367338180542" scaleY="0.655737698078156" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

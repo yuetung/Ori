@@ -8,6 +8,8 @@
     <sound>sound\bgm_Sadness</sound>
     <sound>sound\bgm_Crystal_Cave</sound>
     <sound>sound\bgm_Palmy_Beach</sound>
+    <sound>sound\bgm_Battle_Theme</sound>
+    <sound>sound\bgm_Forest_Theme</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Ori">
@@ -56,6 +58,7 @@
     <sprites name="Environment">
       <sprite>sprites\spr_InvisibleWall</sprite>
       <sprite>sprites\spr_wind</sprite>
+      <sprite>sprites\spr_wind_copy</sprite>
       <sprite>sprites\spr_PalmTree</sprite>
       <sprites name="CrystalCave">
         <sprite>sprites\spr_Crystal1</sprite>
@@ -77,10 +80,17 @@
         <sprite>sprites\spr_CrystalCaveOutsideFront</sprite>
       </sprites>
       <sprites name="PalmyBeach">
+        <sprite>sprites\Palmy_Beac_Boundary</sprite>
         <sprite>sprites\spr_Beach_Umbrella</sprite>
         <sprite>sprites\spr_Beach_Chair</sprite>
         <sprite>sprites\spr_ship</sprite>
         <sprite>sprites\spr_Ocean_Waves</sprite>
+      </sprites>
+      <sprites name="Great Bonzai Tree">
+        <sprite>sprites\spr_Great_Bonzai_Tree</sprite>
+        <sprite>sprites\spr_BonzaiTopMask</sprite>
+        <sprite>sprites\spr_flower1</sprite>
+        <sprite>sprites\spr_BonzaiRootsMask</sprite>
       </sprites>
     </sprites>
     <sprites name="Micellaneous">
@@ -107,6 +117,7 @@
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="Player">
       <object>objects\Player</object>
@@ -138,7 +149,14 @@
       <objects name="Palmy_Beach">
         <object>objects\PalmTree</object>
         <object>objects\Beach_Chair</object>
+        <object>objects\Palmy_Beach_Boundary_Wall</object>
         <object>objects\OceanWaves</object>
+      </objects>
+      <objects name="GreatBonzaiTree">
+        <object>objects\obj_Great_Bonzai_Tree_bg</object>
+        <object>objects\Bonzai_Root_Mask</object>
+        <object>objects\Bonzai_Top_Mask</object>
+        <object>objects\flower1</object>
       </objects>
     </objects>
     <objects name="NPC">
@@ -148,6 +166,7 @@
       <object>objects\SmallBlueDragon</object>
       <object>objects\Mr_Crab</object>
       <object>objects\Mr_Crab2</object>
+      <object>objects\Mr_Crab2_2</object>
       <object>objects\Wind_God</object>
     </objects>
     <objects name="Portals">
@@ -158,6 +177,7 @@
     <objects name="Micellaneous">
       <object>objects\Main_Quest_Progress</object>
       <object>objects\Music_Box_Palmy_Beach</object>
+      <object>objects\Music_Box_Great_Bonsai_Tree</object>
       <object>objects\Music_Box_Crystal_Cave</object>
       <object>objects\Wind_Creator_2000m</object>
     </objects>
@@ -183,8 +203,9 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\Palmy_Beach</room>
-    <room>rooms\BatteRoomTest</room>
+    <room>rooms\Great_Bonzai_Tree</room>
     <room>rooms\Crystal_Cave</room>
+    <room>rooms\BatteRoomTest</room>
     <room>rooms\Crystal_Cave2</room>
   </rooms>
   <help>

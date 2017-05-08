@@ -53,8 +53,8 @@
 dialog_page=0;
 xoffset=0;
 yoffset=0;
-text[0]="What a beautiful day on a beautiful beach";
-text[1]="Why not talk to my son, he's a bit bored there";
+text[0]="Welcome to the Fifth Row Showcase Freshies";
+text[1]="";
 </string>
           </argument>
         </arguments>
@@ -93,11 +93,11 @@ text[4]="";
 global.talked_to_BlueDragon=true;}
 else if (global.main_quest_progress==1.0 &amp;&amp; global.windspeed=3){
 text[0]="What have you done.....";
-text[1]="The wind is way too strong now.... please turn it off before bad things happen";
+text[1]="The wind is way too strong now.... please turn it off.";
 text[2]="";}
 else if (global.main_quest_progress==1.0 &amp;&amp; global.windspeed=2){
 text[0]="The wind is getting stronger";
-text[1]="I think this is enough, don't try to increase the wind speed even further";
+text[1]="Don't try to increase the wind speed even further";
 text[2]="";}
 else if (global.main_quest_progress==1.0 &amp;&amp; global.windspeed=1){
 text[0]="What a nice refreshing breeze";
@@ -108,9 +108,17 @@ text[0]="Yes, you should pay the Wind God a visit";
 text[1]="Try not to make the wind too strong though";
 text[2]="";}
 else if (global.main_quest_progress==0){
-text[0]="What a beautiful day on a beautiful beach";
-text[1]="Why not talk to my son, he's a bit bored there";
-text[2]="";}
+text[0]="Welcome to the Fifth Row showcase!";
+text[1]="If you have a passion for designing games, be it computer games or board games,";
+text[2]="you're welcome to join our Game Design Club! (now under Mindsports)";
+text[3]="No prior knowledge or experience required!";
+text[4]="Our friendly seniors will teach you everything you need!";
+text[5]="We have several Game Design workshops on upcoming Thursdays too!";
+text[6]="For more information, ask that friendly senior over there";
+text[7]="Or if you are shy or afraid of humans,";
+text[8]="Simply write down your name in the sign-up list and we will send you more information!";
+text[9]="";
+}
 
 
 
