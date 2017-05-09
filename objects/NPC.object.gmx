@@ -35,16 +35,17 @@ else
 
 if (global.can_talk==true){
   if (!instance_exists(NPC_alert) &amp;&amp; !instance_exists(Dialog_Box1)){
-   instance_create(Player_follow.x-468,752,NPC_alert);
+   //instance_create(Player_follow.x-468,752,NPC_alert);
+   instance_create(view_xview[0]+168,702,NPC_alert);
  }
  if (instance_exists(Dialog_Box1)){
     with(NPC_alert) {
      instance_destroy();
  }  
  }
- else
-   {NPC_alert.x = Player_follow.x-view_wview/2+15;
-   NPC_alert.y = 752;}
+// else
+//   {NPC_alert.x = Player_follow.x-view_wview/2+15;
+//   NPC_alert.y = 752;}
    
 
 }
@@ -52,7 +53,8 @@ if (global.can_talk==true){
  if (global.can_talk==true &amp;&amp; keyboard_check_pressed(ord('X'))){ 
   if (!instance_exists(dialog)){
    //dialog=instance_create(Player_follow.x-417,608,Dialog_Box1);
-   dialog=instance_create(view_xview[0]+65,608,Dialog_Box1);
+   //dialog=instance_create(view_xview[0]+65,608,Dialog_Box1);
+   dialog=instance_create(view_xview[0]+268,608,Dialog_Box1);
    dialog.text_spd=0.5;
    dialog.text=text;
    }
