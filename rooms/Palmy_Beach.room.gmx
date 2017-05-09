@@ -92,7 +92,7 @@
     <instance objName="Mr_Crab2" x="3488" y="640" name="inst_E2789372" locked="0" code="text[0]=&quot;The boat.....&quot;;&#xA;text[1]=&quot;it's not ready yet......&quot;;&#xA;text[2]=&quot;(so sorry, haven't done the coding...... will get it done before next Thursday)&quot;;&#xA;text[3]=&quot;there's a cave on the other side.....&quot;;&#xA;text[4]=&quot;just walk across the 'water' for now.....&quot;;&#xA;text[5]=&quot;&quot;;&#xA;image_speed=0&#xA;image_index=2&#xA;" scaleX="0.2612244784832" scaleY="0.218579232692718" colour="4294967295" rotation="0"/>
     <instance objName="Invisible_Wall" x="7196" y="753" name="inst_649DCB6B" locked="-1" code="" scaleX="-225" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Invisible_Wall" x="25" y="228" name="inst_68191385" locked="-1" code="" scaleX="-0.8125" scaleY="16.6451606750488" colour="4294967295" rotation="0"/>
-    <instance objName="Portal_Cave" x="137" y="693" name="inst_927694E8" locked="0" code="new_room=Great_Bonzai_Tree&#xA;teleX=1040;&#xA;teleY=697;&#xA;" scaleX="-0.597733736038208" scaleY="1.24576270580292" colour="4294967295" rotation="0"/>
+    <instance objName="Portal_Cave" x="137" y="693" name="inst_927694E8" locked="0" code="new_room=Great_Bonzai_Tree&#xA;teleX=1040;&#xA;teleY=697;&#xA;" scaleX="-0.597733736038208" scaleY="1.24576270580292" colour="4278255360" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
