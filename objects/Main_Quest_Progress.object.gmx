@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>//Game Start
-window_set_fullscreen(true);
+window_set_fullscreen(false);
 global.main_quest_progress=0
 global.talked_to_SmallblueDragon=false;
 global.small_dragon_blown_away=false;
