@@ -38,10 +38,21 @@
       <sprite>sprites\spr_PaperPlaneBig</sprite>
       <sprite>sprites\spr_PaperPlaneSmall</sprite>
       <sprite>sprites\spr_PlayerSoul</sprite>
-      <sprite>sprites\spr_SoulField</sprite>
+      <sprite>sprites\spr_SoulFieldGround</sprite>
       <sprite>sprites\spr_SoulFieldBoundary</sprite>
       <sprite>sprites\spr_SoulFieldCollisionMask</sprite>
+      <sprite>sprites\spr_PlayerSoulField2</sprite>
+      <sprite>sprites\spr_EnemySoulField2</sprite>
+      <sprite>sprites\spr_battleGround</sprite>
       <sprite>sprites\spr_SoulFieldCopy</sprite>
+      <sprites name="Battle_Ori">
+        <sprite>sprites\spr_Player_Fall</sprite>
+        <sprite>sprites\spr_Player_Jump</sprite>
+        <sprite>sprites\spr_normal_attack</sprite>
+        <sprite>sprites\spr_sky_attack</sprite>
+        <sprite>sprites\spr_Player_idle</sprite>
+        <sprite>sprites\spr_Player_move</sprite>
+      </sprites>
     </sprites>
     <sprites name="NPC">
       <sprites name="Dragon">
@@ -112,11 +123,21 @@
     <background>background\Palmy_Beach_Background1</background>
     <background>background\background3</background>
     <background>background\Cave_Background1</background>
+    <background>background\Cave_Background_2D_left</background>
+    <background>background\Cave_Foreground_2D_left</background>
     <backgrounds name="gfx">
       <background>background\dust_clouds</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_player_battle_normal.gml</script>
+    <script>scripts\scr_player_battle_jumping.gml</script>
+    <script>scripts\scr_player_battle_sky_attack.gml</script>
+    <script>scripts\scr_player_battle_normal_attack.gml</script>
+    <script>scripts\scr_player_battle_animate.gml</script>
+    <script>scripts\scr_getinputs.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="Player">
       <object>objects\Player</object>
@@ -184,10 +205,14 @@
       <object>objects\Dialog_Box1</object>
     </objects>
     <objects name="Battle">
+      <object>objects\Player_inbattle</object>
       <object>objects\Paper_Plane</object>
       <object>objects\SoulField</object>
       <object>objects\SoulFieldBoundary</object>
       <object>objects\SoulFieldMask</object>
+      <object>objects\BattleGround</object>
+      <object>objects\Player_Soul_Field2</object>
+      <object>objects\Enemy_Soul_Field2</object>
       <object>objects\BattleField</object>
     </objects>
     <objects name="Transportation">
@@ -201,6 +226,7 @@
     <timeline>timelines\timeline0</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\CombatRoom</room>
     <room>rooms\Palmy_Beach</room>
     <room>rooms\Great_Bonzai_Tree</room>
     <room>rooms\Crystal_Cave</room>
