@@ -31,6 +31,14 @@
       <sprite>sprites\spr_LeftMov</sprite>
       <sprite>sprites\spr_DownMov</sprite>
     </sprites>
+    <sprites name="Ori2">
+      <sprite>sprites\spr_ori_left_idle</sprite>
+      <sprite>sprites\spr_ori_frontleft_idle</sprite>
+      <sprite>sprites\spr_ori_front_idle_copy</sprite>
+      <sprite>sprites\spr_ori_front_idle</sprite>
+      <sprite>sprites\spr_ori_backleft_idle_need_retake</sprite>
+      <sprite>sprites\spr_ori_left_move</sprite>
+    </sprites>
     <sprites name="Battle">
       <sprite>sprites\spr_PlayerSoulField</sprite>
       <sprite>sprites\spr_EnemySoulField</sprite>
