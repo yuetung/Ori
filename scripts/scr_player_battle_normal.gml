@@ -69,6 +69,7 @@ image_angle=0
 jumpcount=0
 stop_jump_count=0
 stop_signal=false
+can_sky_attack=true
 image_speed=0.5
 
 }
@@ -76,6 +77,9 @@ else if key_c
 {
 sprite_index=spr_normal_attack;
 image_index=0
+inst=instance_create(x+120*sign(image_xscale),y,choose(Slash1,Slash2))
+with (inst) {image_xscale=sign(other.image_xscale)}
+image_speed=attack_speed*image_number/200
 state=states.normal_attack
 }
 else if key_down 

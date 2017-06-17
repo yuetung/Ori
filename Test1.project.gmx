@@ -60,12 +60,18 @@
         <sprite>sprites\spr_Player_Jump_fulllsize</sprite>
         <sprite>sprites\spr_normal_attack</sprite>
         <sprite>sprites\spr_sky_attack</sprite>
+        <sprite>sprites\spr_sky_attack_old</sprite>
         <sprite>sprites\spr_Player_idle_fullsize</sprite>
         <sprite>sprites\spr_Player_idle</sprite>
         <sprite>sprites\spr_Player_squat</sprite>
         <sprite>sprites\spr_Player_squat_orignal_copy</sprite>
         <sprite>sprites\spr_Player_move</sprite>
         <sprite>sprites\spr_Player_move_old</sprite>
+      </sprites>
+      <sprites name="Skills">
+        <sprite>sprites\spr_claw_slash1</sprite>
+        <sprite>sprites\spr_claw_slash2</sprite>
+        <sprite>sprites\spr_sky_spin</sprite>
       </sprites>
     </sprites>
     <sprites name="NPC">
@@ -147,6 +153,7 @@
   <scripts name="scripts">
     <script>scripts\scr_player_battle_normal.gml</script>
     <script>scripts\scr_player_battle_jumping.gml</script>
+    <script>scripts\scr_player_battle_sky_attack_old.gml</script>
     <script>scripts\scr_player_battle_sky_attack.gml</script>
     <script>scripts\scr_player_battle_normal_attack.gml</script>
     <script>scripts\scr_player_battle_squat.gml</script>
@@ -221,7 +228,6 @@
     </objects>
     <objects name="Battle">
       <object>objects\Player_inbattle</object>
-      <object>objects\Paper_Plane</object>
       <object>objects\SoulField</object>
       <object>objects\SoulFieldBoundary</object>
       <object>objects\SoulFieldMask</object>
@@ -229,6 +235,12 @@
       <object>objects\Player_Soul_Field2</object>
       <object>objects\Enemy_Soul_Field2</object>
       <object>objects\BattleField</object>
+      <objects name="Skills">
+        <object>objects\Paper_Plane</object>
+        <object>objects\Slash1</object>
+        <object>objects\Slash2</object>
+        <object>objects\Sky_spin</object>
+      </objects>
     </objects>
     <objects name="Transportation">
       <object>objects\Ship</object>

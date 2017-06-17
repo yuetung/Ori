@@ -137,10 +137,13 @@ state=states.normal;
 
 }
 */
-if key_c {
+if (key_c && can_sky_attack==true){
 sprite_index=spr_sky_attack;
 image_index=0
-image_angle=0
+inst=instance_create(x,y,Sky_spin)
+with (inst) {image_angle=sign(other.image_angle)}
+image_speed=attack_speed*image_number/200
+original_angle=image_angle
 state=states.sky_attack
 }
 
