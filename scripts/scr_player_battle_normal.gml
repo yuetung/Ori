@@ -87,6 +87,8 @@ else if key_down
 sprite_index=spr_Player_squat;
 image_index=0
 state=states.squat
+shield=instance_create(x,y,Defence_curl)
+with(shield) {image_xscale=sign(other.image_xscale)}
 }
 
 

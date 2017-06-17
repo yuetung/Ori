@@ -45,6 +45,7 @@
       <sprite>sprites\spr_BattleField</sprite>
       <sprite>sprites\spr_PaperPlaneBig</sprite>
       <sprite>sprites\spr_PaperPlaneSmall</sprite>
+      <sprite>sprites\spr_PaperPlaneSmall_old</sprite>
       <sprite>sprites\spr_PlayerSoul</sprite>
       <sprite>sprites\spr_SoulFieldGround</sprite>
       <sprite>sprites\spr_SoulFieldBoundary</sprite>
@@ -72,6 +73,7 @@
         <sprite>sprites\spr_claw_slash1</sprite>
         <sprite>sprites\spr_claw_slash2</sprite>
         <sprite>sprites\spr_sky_spin</sprite>
+        <sprite>sprites\spr_defence_curl</sprite>
       </sprites>
     </sprites>
     <sprites name="NPC">
@@ -236,21 +238,24 @@
       <object>objects\Enemy_Soul_Field2</object>
       <object>objects\BattleField</object>
       <objects name="Skills">
-        <object>objects\Paper_Plane</object>
+        <object>objects\Close_Combat</object>
         <object>objects\Slash1</object>
         <object>objects\Slash2</object>
         <object>objects\Sky_spin</object>
+        <object>objects\Paper_Plane</object>
+        <object>objects\Defence_curl</object>
       </objects>
     </objects>
     <objects name="Transportation">
       <object>objects\Ship</object>
     </objects>
     <objects name="Enemies">
-      <object>objects\object43</object>
+      <object>objects\Enemy</object>
+      <object>objects\object62</object>
     </objects>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\timeline0</timeline>
+    <timeline>timelines\airplane_attack_5</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\CombatRoom</room>

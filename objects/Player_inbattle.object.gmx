@@ -3,7 +3,7 @@
   <spriteName>spr_RightStat</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1000</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -41,6 +41,9 @@ jumpspeed_powerup = 10;
 jumpspeed = jumpspeed_normal
 key_down = 0;
 attack_speed=20
+attack=3
+defence=3
+hp=50
 //state machine initialization
 state=states.normal;
 
