@@ -56,21 +56,33 @@ if (place_meeting(x,y+1,BattleGround))
     if (move!=0) 
     {
         sprite_index = spr_Player_move; 
-        image_speed = 0.5;
+        image_speed = movespeed/23;
     }
-    else sprite_index = spr_Player_idle; image_speed = 0.5;
+    else {sprite_index = spr_Player_idle; image_speed = 0.2;}
 }
 
 //switch state
 if key_jump {
 state=states.jumping
+sprite_index = spr_Player_Jump;
+image_angle=0
 jumpcount=0
+stop_jump_count=0
+stop_signal=false
+image_speed=0.5
+
 }
-if key_c 
+else if key_c 
 {
 sprite_index=spr_normal_attack;
 image_index=0
 state=states.normal_attack
+}
+else if key_down 
+{
+sprite_index=spr_Player_squat;
+image_index=0
+state=states.squat
 }
 
 

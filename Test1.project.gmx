@@ -37,7 +37,7 @@
       <sprite>sprites\spr_ori_front_idle_copy</sprite>
       <sprite>sprites\spr_ori_front_idle</sprite>
       <sprite>sprites\spr_ori_backleft_idle_need_retake</sprite>
-      <sprite>sprites\spr_ori_left_move</sprite>
+      <sprite>sprites\spr_ori_side_move_copy</sprite>
     </sprites>
     <sprites name="Battle">
       <sprite>sprites\spr_PlayerSoulField</sprite>
@@ -54,12 +54,18 @@
       <sprite>sprites\spr_battleGround</sprite>
       <sprite>sprites\spr_SoulFieldCopy</sprite>
       <sprites name="Battle_Ori">
-        <sprite>sprites\spr_Player_Fall</sprite>
+        <sprite>sprites\spr_Player_Fall_old</sprite>
         <sprite>sprites\spr_Player_Jump</sprite>
+        <sprite>sprites\spr_Player_Fall</sprite>
+        <sprite>sprites\spr_Player_Jump_fulllsize</sprite>
         <sprite>sprites\spr_normal_attack</sprite>
         <sprite>sprites\spr_sky_attack</sprite>
+        <sprite>sprites\spr_Player_idle_fullsize</sprite>
         <sprite>sprites\spr_Player_idle</sprite>
+        <sprite>sprites\spr_Player_squat</sprite>
+        <sprite>sprites\spr_Player_squat_orignal_copy</sprite>
         <sprite>sprites\spr_Player_move</sprite>
+        <sprite>sprites\spr_Player_move_old</sprite>
       </sprites>
     </sprites>
     <sprites name="NPC">
@@ -143,6 +149,7 @@
     <script>scripts\scr_player_battle_jumping.gml</script>
     <script>scripts\scr_player_battle_sky_attack.gml</script>
     <script>scripts\scr_player_battle_normal_attack.gml</script>
+    <script>scripts\scr_player_battle_squat.gml</script>
     <script>scripts\scr_player_battle_animate.gml</script>
     <script>scripts\scr_getinputs.gml</script>
   </scripts>

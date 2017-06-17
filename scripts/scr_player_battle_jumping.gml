@@ -40,38 +40,107 @@ if (place_meeting(x+hsp_final,y,BattleGround))
 x += hsp_final;
 
 //Vertical Collision
-if (place_meeting(x,y+vsp,BattleGround))
+if (place_meeting(x,y+vsp,BattleGround) && jumpcount>3)
 {
+    sprite_index=spr_Player_Fall
+    image_index=2
+    image_angle=0
     while(!place_meeting(x,y+sign(vsp),BattleGround))
     {
         y += sign(vsp);
     }
     vsp = 0;
+    stop_signal=true
     
 }
 y += vsp;
 
 //Animate
 if (move!=0) image_xscale = move;
-if (place_meeting(x,y+1,BattleGround))
+/*if (place_meeting(x,y+1,BattleGround))
 {
     if (move!=0) 
     {
         sprite_index = spr_Player_move; 
-        image_speed = 0.5;
+        image_speed = 1;
     }
-    else sprite_index = spr_Player_idle; image_speed = 0.5;
+    else sprite_index = spr_Player_idle; image_speed = 0.2;
 }
 else
-{
-    if (vsp < 0) sprite_index = spr_Player_Jump; else sprite_index = spr_Player_Fall;
+{*/
+    if (vsp < 0) {
+    //jumping animation 
+    sprite_index=spr_Player_Jump
+    if (image_index<=1) {image_speed=0.5}
+    else {
+    /*if (image_angle<=30){
+        if hsp!=0 {image_angle-=(30/jumpspeed*grav)*sign(hsp)}
+        else {image_angle-=(30/jumpspeed*grav)}}
+    if image_angle<=30 {image_index=2; image_speed=0;}
+    else {image_index=3; image_speed=0;}
+    }*/
+        image_index=2
+        if sign(image_xscale)>0 {image_angle=-30-2*vsp*sign(image_xscale)}
+        if sign(image_xscale)<0 {image_angle=30-2*vsp*sign(image_xscale)}}
+        
+    
 }
+    else if ((vsp>=0) && stop_signal=false) {
+    //falling animation
+    /*if (falling_start==true && stop_jump_count==0){
+    if (image_angle<=30){
+        if hsp!=0 {image_angle-=(30/jumpspeed*grav)*sign(hsp)}
+        else {image_angle-=(30/jumpspeed*grav)}}
+    if image_angle<=30 {image_index=0; image_speed=0;}
+    else {image_index=1; image_speed=0;}
+    
+    }
+    
+    else if falling_start==false {
+    falling_start=true;
+    sprite_index = spr_Player_Fall;
+    image_angle=0
+    }*/
+        sprite_index=spr_Player_Fall
+        if (stop_jump_count==0){
+            image_index=0
+            image_speed=0
+            image_angle=-2*vsp*sign(image_xscale)
+    }
+    }
+//}
 jumpcount+=1
+
+
 //switch states
-if place_meeting(x,y+1,BattleGround) && jumpcount>3 {state=states.normal}
+//stop signal
+
+if (stop_signal=true && jumpcount>3){
+    image_angle=0
+    state=states.normal
+}
+
+
+//jump end animation
+//if (place_meeting(x,y+1,BattleGround) && jumpcount>3/* && stop_jump_count==0*/) {
+//image_index=2; 
+//image_angle=0
+//image_speed=0;
+//stop_jump_count+=1;
+
+//}
+/*if stop_jump_count>0 {stop_jump_count+=1}
+if stop_jump_count>=3 {image_index=3; image_angle=0; image_speed=0;}
+
+if (stop_jump_count>=6){
+state=states.normal; 
+
+}
+*/
 if key_c {
 sprite_index=spr_sky_attack;
 image_index=0
+image_angle=0
 state=states.sky_attack
 }
 
