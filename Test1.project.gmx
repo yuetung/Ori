@@ -60,6 +60,7 @@
         <sprite>sprites\spr_Player_Fall</sprite>
         <sprite>sprites\spr_Player_Jump_fulllsize</sprite>
         <sprite>sprites\spr_normal_attack</sprite>
+        <sprite>sprites\spr_norml_attack_old</sprite>
         <sprite>sprites\spr_sky_attack</sprite>
         <sprite>sprites\spr_sky_attack_old</sprite>
         <sprite>sprites\spr_Player_idle_fullsize</sprite>
@@ -145,7 +146,8 @@
     <background>background\Palmy_Beach_Background1</background>
     <background>background\background3</background>
     <background>background\Cave_Background1</background>
-    <background>background\Cave_Background_2D_left</background>
+    <background>background\Cave_Background_2D_2</background>
+    <background>background\Cave_Background_2D_1</background>
     <background>background\Cave_Foreground_2D_left</background>
     <backgrounds name="gfx">
       <background>background\dust_clouds</background>

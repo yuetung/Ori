@@ -77,7 +77,7 @@ else if key_c
 {
 sprite_index=spr_normal_attack;
 image_index=0
-inst=instance_create(x+120*sign(image_xscale),y,choose(Slash1,Slash2))
+inst=instance_create(x+70*sign(image_xscale),y,choose(Slash1,Slash2))
 with (inst) {image_xscale=sign(other.image_xscale)}
 image_speed=attack_speed*image_number/200
 state=states.normal_attack

@@ -7,13 +7,13 @@
   <tileyoff>0</tileyoff>
   <tilehsep>0</tilehsep>
   <tilevsep>0</tilevsep>
-  <HTile>-1</HTile>
-  <VTile>-1</VTile>
+  <HTile>0</HTile>
+  <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
   <width>1366</width>
   <height>768</height>
-  <data>images\Cave_Background_2D_left.png</data>
+  <data>images\Cave_Background_2D_1.png</data>
 </background>
