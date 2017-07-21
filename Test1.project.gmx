@@ -75,6 +75,8 @@
         <sprite>sprites\spr_claw_slash2</sprite>
         <sprite>sprites\spr_sky_spin</sprite>
         <sprite>sprites\spr_defence_curl</sprite>
+        <sprite>sprites\spr_small_expliding_rabbit</sprite>
+        <sprite>sprites\spr_rocket_rabbit</sprite>
       </sprites>
     </sprites>
     <sprites name="NPC">
@@ -139,6 +141,7 @@
     </sprites>
     <sprites name="Enemy">
       <sprite>sprites\Crab2</sprite>
+      <sprite>sprites\spr_Exploding_rabbit</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -163,6 +166,7 @@
     <script>scripts\scr_player_battle_squat.gml</script>
     <script>scripts\scr_player_battle_animate.gml</script>
     <script>scripts\scr_getinputs.gml</script>
+    <script>scripts\script8.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Player">
@@ -245,6 +249,8 @@
         <object>objects\Slash2</object>
         <object>objects\Sky_spin</object>
         <object>objects\Paper_Plane</object>
+        <object>objects\rocket_rabbit</object>
+        <object>objects\small_exploding_rabbit</object>
         <object>objects\Defence_curl</object>
       </objects>
     </objects>
@@ -254,10 +260,13 @@
     <objects name="Enemies">
       <object>objects\Enemy</object>
       <object>objects\object62</object>
+      <object>objects\Mama_Exploding_rabbit</object>
     </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\airplane_attack_5</timeline>
+    <timeline>timelines\spawn_5_exploding_rabbit</timeline>
+    <timeline>timelines\spawn_3_rocket_rabbit</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\CombatRoom</room>
