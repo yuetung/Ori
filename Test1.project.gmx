@@ -44,7 +44,6 @@
       <sprite>sprites\spr_EnemySoulField</sprite>
       <sprite>sprites\spr_BattleField</sprite>
       <sprite>sprites\spr_PaperPlaneBig</sprite>
-      <sprite>sprites\spr_PaperPlaneSmall</sprite>
       <sprite>sprites\spr_PaperPlaneSmall_old</sprite>
       <sprite>sprites\spr_PlayerSoul</sprite>
       <sprite>sprites\spr_SoulFieldGround</sprite>
@@ -77,6 +76,7 @@
         <sprite>sprites\spr_defence_curl</sprite>
         <sprite>sprites\spr_small_expliding_rabbit</sprite>
         <sprite>sprites\spr_rocket_rabbit</sprite>
+        <sprite>sprites\spr_PaperPlaneSmall</sprite>
       </sprites>
     </sprites>
     <sprites name="NPC">
